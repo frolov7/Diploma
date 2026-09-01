@@ -1,0 +1,188 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Didikin}
+\selectlanguageifdefined{russian}
+Дыдыкин ~А.~В. Банковские риски как элемент управления финансовой стабильностью банковской деятельности~// Финансы и кредит. ---
+\newblock 2011. ---
+\newblock {№}~2. ---
+\newblock {С.}~67--70.
+
+\bibitem{FrankRG}
+\selectlanguageifdefined{russian}
+Frank RG. ---
+\newblock [Электронный ресурс]. Режим доступа: \url{https://frankrg.com/}. ---
+\newblock (дата обращения: 10.03.2026).
+
+\bibitem{BaselCreditRisk}
+\selectlanguageifdefined{english}
+{Basel Committee on Banking Supervision}. Principles for the Management of Credit Risk~// Bank for International Settlements. ---
+\newblock 2010. ---
+\newblock С.~1--26.
+
+\bibitem{Konovalova}
+\selectlanguageifdefined{english}
+Коновалова ~Н. Assessing Creditworthiness in Consumer Credit~// Polish Journal of Management Studies. ---
+\newblock 2017. ---
+\newblock С.~90--100.
+
+\bibitem{Zaernuk}
+\selectlanguageifdefined{russian}
+Заернюк ~В.~М. Использование скоринговых моделей при планировании периодичности аудита структурных подразделений коммерческого банка~// Финансы и кредит. ---
+\newblock 2013. ---
+\newblock {№}~7. ---
+\newblock {С.}~28--37.
+
+\bibitem{WorldBankCreditScoring}
+\selectlanguageifdefined{english}
+{World Bank Group}. Credit Scoring Approaches Guidelines~// World Bank Group Publications. ---
+\newblock 2019. ---
+\newblock С.~1--64.
+
+\bibitem{Tkachev}
+\selectlanguageifdefined{russian}
+Ткачев ~А.~И. Системы кредитного скоринга. Матричный подход~// Банковский вестник. ---
+\newblock 2019. ---
+\newblock {С.}~37--38.
+
+\bibitem{Lyandres}
+\selectlanguageifdefined{russian}
+Ляндрес ~В.~А. Технология оценки долгов по потребительским кредитам~/ В.~А.~Ляндрес. ---
+\newblock Наука Кубани, 2019.
+
+\bibitem{ThomasCreditScoringFraud}
+\selectlanguageifdefined{english}
+Thomas ~L.~C. Credit Scoring and Its Applications~/ L.~C.~Thomas, D.~B.~Edelman, J.~N.~Crook. ---
+\newblock Philadelphia: Society for Industrial and Applied Mathematics, 2002. ---
+\newblock С.~172--175. ---
+\newblock DOI: 10.1137/1.9780898718317.
+
+\bibitem{Kornienko}
+\selectlanguageifdefined{russian}
+Корниенко ~В.~Ю. Использование градиентного бустинга деревьев решений для анализа генетических последовательностей~/ В.~Ю.~Корниенко. ---
+\newblock Аллея науки, 2018. ---
+\newblock {С.}~2--5.
+
+\bibitem{HastieElementsBoosting}
+\selectlanguageifdefined{english}
+Hastie ~T. The Elements of Statistical Learning: Data Mining, Inference, and Prediction~/ T.~Hastie, R.~Tibshirani, J.~Friedman. ---
+\newblock 2 edition. ---
+\newblock New York: Springer, 2009. ---
+\newblock С.~337--384. ---
+\newblock DOI: 10.1007/978-0-387-84858-7.
+
+\bibitem{Lebedev}
+\selectlanguageifdefined{russian}
+Салахутдинова ~К.~И. Алгоритм градиентного бустинга деревьев решений в задаче идентификации программного обеспечения~// Научно-технический вестник информационных технологий, механики и оптики. ---
+\newblock 2018. ---
+\newblock Т.~18, {№}~6. ---
+\newblock {С.}~1016--1022. ---
+\newblock DOI: 10.17586/2226-1494-2018-18-6-1016-1022.
+
+\bibitem{ChenXGBoost}
+\selectlanguageifdefined{english}
+Chen ~T. XGBoost: A Scalable Tree Boosting System~/ T.~Chen, C.~Guestrin~// Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ---
+\newblock New York: ACM, 2016. ---
+\newblock С.~785--794. ---
+\newblock DOI: 10.1145/2939672.2939785.
+
+\bibitem{KeLightGBM}
+\selectlanguageifdefined{english}
+LightGBM: A Highly Efficient Gradient Boosting Decision Tree~/ G.~Ke, Q.~Meng, T.~Finley et~al.~// Advances in Neural Information Processing Systems. ---
+\newblock 2017. ---
+\newblock С.~3146--3154.
+
+\bibitem{PampelLogisticRegression}
+\selectlanguageifdefined{russian}
+Пампел ~Ф. Логистическая регрессия~/ Ф.~Пампел, А.~Груздев, Д.~Цвиркун. ---
+\newblock Москва: ДМК Пресс, 2023. ---
+\newblock {С.}~8--20.
+
+\bibitem{Marmish}
+\selectlanguageifdefined{russian}
+Мармыш ~К.~А. Применение логистической регрессии к вычислению повреждаемости твердого деформируемого тела~// Механика машин, механизмов и материалов. ---
+\newblock 2021. ---
+\newblock {№}~1. ---
+\newblock {С.}~46--53. ---
+\newblock DOI: 10.46864/1995-0470-2020-1-54-46-53.
+
+\bibitem{OrlovaDiscriminantAnalysis}
+\selectlanguageifdefined{russian}
+Многомерный статистический анализ в экономических задачах: компьютерное моделирование в SPSS~/ Н.~А.~Концевая, И.~В.~Орлова, В.~Б.~Турундаевский {и~др.}; {Под ред. }И.~В.~Орлова. ---
+\newblock Москва: Вузовский учебник : ИНФРА-М, 2024. ---
+\newblock {С.}~194--198.
+
+\bibitem{Petuhov}
+\selectlanguageifdefined{russian}
+Петухов ~Д.~Е. Линейный дискриминантный анализ как контролируемый подход в задачах уменьшения размерности данных~// Научное обозрение. Технические науки. ---
+\newblock 2020. ---
+\newblock {С.}~5--9.
+
+\bibitem{Mihailov}
+\selectlanguageifdefined{russian}
+Михайлов ~И.~С. Разработка модификации метода опорных векторов для решения задачи классификации с ограничениями на предметную область~// Программные продукты и системы. ---
+\newblock 2020. ---
+\newblock Т.~33, {№}~3. ---
+\newblock {С.}~439--448. ---
+\newblock DOI: 10.15827/0236-235X.131.439-448.
+
+\bibitem{Xiangdong}
+\selectlanguageifdefined{english}
+Xiangdong ~H. Prediction of Bottom-Hole Flow Pressure in Coalbed Gas Wells Based on GA Optimization SVM~/ H.~Xiangdong~// 2018 IEEE 3rd Advanced Information Technology, Electronic and Automation Control Conference. ---
+\newblock 2018. ---
+\newblock С.~138--141. ---
+\newblock DOI: 10.1109/IAEAC.2018.8577488.
+
+\bibitem{MyFicoCreditScores}
+\selectlanguageifdefined{english}
+Fair Isaac Corporation. What is a Credit Score. ---
+\newblock [Электронный ресурс]. Режим доступа: \url{https://www.myfico.com/credit-education/credit-scores}. ---
+\newblock (дата обращения: 10.03.2026).
+
+\bibitem{ChubCreditRiskML}
+\selectlanguageifdefined{russian}
+Чуб ~В.~С. Сравнительный анализ методов машинного обучения в оценке кредитных рисков~// Образовательные ресурсы и технологии. ---
+\newblock 2023. ---
+\newblock {№}~3. ---
+\newblock {С.}~81--92. ---
+\newblock DOI: 10.21777/2500-2112-2023-3-81-92.
+
+\bibitem{MolnarInterpretability}
+\selectlanguageifdefined{english}
+Molnar ~C. Interpretable Machine Learning: A Guide for Making Black Box Models Explainable~/ C.~Molnar. ---
+\newblock Kiron Open Publishing, 2022. ---
+\newblock С.~165--183.
+
+\bibitem{KuhnPreprocessing}
+\selectlanguageifdefined{english}
+Kuhn ~M. Applied Predictive Modeling~/ M.~Kuhn, K.~Johnson. ---
+\newblock New York: Springer, 2013. ---
+\newblock С.~27--59. ---
+\newblock DOI: 10.1007/978-1-4614-6849-3.
+
+\bibitem{BishopPatternRecognition}
+\selectlanguageifdefined{english}
+Bishop ~C.~M. Pattern Recognition and Machine Learning~/ C.~M.~Bishop. ---
+\newblock New York: Springer, 2006. ---
+\newblock С.~32--33.
+
+\bibitem{KaggleHomeCreditDefaultRisk}
+\selectlanguageifdefined{english}
+Home Credit Group. Home Credit Default Risk. ---
+\newblock [Электронный ресурс]. Режим доступа: \url{https://www.kaggle.com/c/home-credit-default-risk}. ---
+\newblock (дата обращения: 10.03.2026).
+
+\bibitem{DavisGoadrichPRROC}
+\selectlanguageifdefined{english}
+Davis ~J. The Relationship Between Precision-Recall and ROC Curves~/ J.~Davis, M.~Goadrich~// Proceedings of the 23rd International Conference on Machine Learning. ---
+\newblock New York: ACM, 2006. ---
+\newblock С.~233--240. ---
+\newblock DOI: 10.1145/1143844.1143874.
+
+\end{thebibliography}

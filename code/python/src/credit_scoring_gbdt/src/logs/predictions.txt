@@ -1,0 +1,1 @@
+{"inn": "5190134672", "foundation_year": 2005, "status": "Действующее", "capital": 10000.0, "main_okved": "55.10", "employee_count": 42, "latest_income": 0.0, "latest_profitability": 0.0, "total_debt": 0.0, "prediction": 0}

@@ -1,0 +1,15 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{ВВЕДЕНИЕ}{6}{Doc-Start}%
+\contentsline {section}{\numberline {1}Формализованная постановка задачи}{8}{section.1}%
+\contentsline {section}{\numberline {2}Тестирование программного обеспечения}{12}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Функциональное тестирование}{12}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Алгоритм тестирования}{13}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Классы эквивалентности}{14}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Результаты функционального тестирования}{16}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Модульное тестирование}{17}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Тестирование графического интерфейса}{17}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Исследование разработанного ПО}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Постановка и условия исследования}{18}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Результаты исследования}{20}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Выводы}{24}{subsection.3.3}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{25}{subsection.3.3}%

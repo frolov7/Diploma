@@ -1,0 +1,36 @@
+\section*{ПРИЛОЖЕНИЕ А}
+\addcontentsline{toc}{section}{ПРИЛОЖЕНИЕ А}
+
+\section*{Модуль подготовки данных}
+
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция загрузки исходных данных, linerange={1-7},
+		basicstyle=\footnotesize\ttfamily, label={lst::load_source_data}, frame=single, breaklines=true]{inc/src/data_preparation.py}
+\end{lstinputlisting}
+\FloatBarrier
+
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция подготовки признаков кредитного бюро, linerange={10-36},
+		basicstyle=\footnotesize\ttfamily, label={lst::prepare_bureau_features}, frame=single, breaklines=true]{inc/src/data_preparation.py}
+\end{lstinputlisting}
+\FloatBarrier
+
+\newpage
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция подготовки признаков предыдущих заявок, linerange={39-58},
+		basicstyle=\footnotesize\ttfamily, label={lst::prepare_previous_features}, frame=single, breaklines=true]{inc/src/data_preparation.py}
+\end{lstinputlisting}
+\FloatBarrier
+
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция подготовки признаков платежного поведения, linerange={61-84},
+		basicstyle=\footnotesize\ttfamily, label={lst::prepare_installments_features}, frame=single, breaklines=true]{inc/src/data_preparation.py}
+\end{lstinputlisting}
+\FloatBarrier
+
+\newpage
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция формирования производных признаков, linerange={94-116},
+		basicstyle=\footnotesize\ttfamily, label={lst::add_engineered_features}, frame=single, breaklines=true]{inc/src/data_preparation.py}
+\end{lstinputlisting}
+\FloatBarrier

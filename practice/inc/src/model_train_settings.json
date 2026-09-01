@@ -1,0 +1,13 @@
+{
+  "test_size": 0.2,
+  "random_state": 42,
+  "threshold": 0.3,
+  "cv": 3,
+  "scoring": "roc_auc",
+  "random_search_iter": 5,
+  "n_estimators": [300, 500, 700],
+  "learning_rate": [0.01, 0.03, 0.05],
+  "num_leaves": [31, 50, 70],
+  "max_depth": [6, 8],
+  "min_child_samples": [50, 100]
+}

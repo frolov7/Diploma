@@ -1,0 +1,201 @@
+{
+    "inn": "7716564434",
+    "kpp": "771601001",
+    "ogrn": "1067760304633",
+    "ogrn_date": "2006-11-29",
+    "status": "Действующее",
+    "foundation_year": "2006",
+    "capital": 200000.0,
+    "main_okved": "46.46.2",
+    "main_okved_text": "Торговля оптовая изделиями, применяемыми в медицинских целях",
+    "extra_okved": [
+        "20.59",
+        "26.60.1",
+        "46.90",
+        "47.73",
+        "47.74",
+        "73.11",
+        "85.42.9",
+        "86.21"
+    ],
+    "address": "г. Москва, ул. Енисейская, д.5, пом.14/1",
+    "fias_address": "Г. МОСКВА, ВН.ТЕР.Г. МУНИЦИПАЛЬНЫЙ ОКРУГ БАБУШКИНСКИЙ, УЛ. ЕНИСЕЙСКАЯ, Д.5, ПОМ.14/1",
+    "ceo": {
+        "full_name": "Чилингарян Мартин Павлович",
+        "innfl": "502912068557",
+        "appointed_at": "2022-01-01"
+    },
+    "founders": [
+        {
+            "full_name": "Чилингарян Мартин Павлович",
+            "innfl": "502912068557",
+            "share": 100000.0,
+            "percent": 50.0
+        },
+        {
+            "full_name": "Чилингарян Мадат Мамиконович",
+            "innfl": "502900018946",
+            "share": 100000.0,
+            "percent": 50.0
+        }
+    ],
+    "employee_count": 6,
+    "income": 0.0,
+    "expense": 0.0,
+    "profitability": 0.0,
+    "tax_burden": 0.0,
+    "contacts": {
+        "phones": [
+            "+74957308970",
+            "+74991893457",
+            "+79151101259",
+            "+74957309025",
+            "+74991800017",
+            "+74991801391",
+            "+79637110236"
+        ],
+        "emails": [
+            "7308970@mail.ru",
+            "9151101259@mail.ru",
+            "info@komsol.ru",
+            "kamsol@bk.ru",
+            "sunmed2009@yandex.ru"
+        ]
+    },
+    "taxes": {
+        "profit_tax": null,
+        "vat": null,
+        "penalty": null
+    },
+    "debts": {
+        "arrears": 1037068.62,
+        "penalty": 19373.89,
+        "fine": 1279.06
+    },
+    "history": {
+        "ceo_changes": [
+            "2006-11-29 ~ 2014-04-16",
+            "2014-04-17 ~ 2021-12-31"
+        ],
+        "capital_changes": [],
+        "address_changes": [
+            {
+                "АдресПолн": "г. Москва, ул. Енисейская, д.5"
+            }
+        ]
+    },
+    "financial_history": [
+        {
+            "year": "2024",
+            "income": 177483000.0,
+            "expense": 166959000.0,
+            "profitability": 0.051,
+            "tax_burden": 0.035,
+            "taxes": {
+                "usn": 0.0,
+                "pension": 1173131.6,
+                "medical": 0.0,
+                "social": 4004.98,
+                "penalty": 23998.67,
+                "other": 4611577.16
+            }
+        },
+        {
+            "year": "2023",
+            "income": 165806000.0,
+            "expense": 149250000.0,
+            "profitability": 0.101,
+            "tax_burden": 0.030650462,
+            "taxes": {
+                "usn": 0.0,
+                "pension": 792353.9,
+                "medical": 326410.73,
+                "social": 32315.95,
+                "penalty": 0.0,
+                "other": 6458127.109999999
+            }
+        },
+        {
+            "year": "2022",
+            "income": 169528000.0,
+            "expense": 157333000.0,
+            "profitability": 0.105,
+            "tax_burden": 0.021230691,
+            "taxes": {
+                "usn": 0.0,
+                "pension": 1084487.91,
+                "medical": 433707.54,
+                "social": 29980.41,
+                "penalty": 0.0,
+                "other": 5845462.0
+            }
+        },
+        {
+            "year": "2021",
+            "income": 216709000.0,
+            "expense": 187137000.0,
+            "profitability": 0.054,
+            "tax_burden": 0.026294028,
+            "taxes": {
+                "usn": 0.0,
+                "pension": 621642.72,
+                "medical": 197828.21,
+                "social": 53279.85,
+                "penalty": 0.0,
+                "other": 4562141.0
+            }
+        },
+        {
+            "year": "2020",
+            "income": 143997000.0,
+            "expense": 127271000.0,
+            "profitability": 0.083,
+            "tax_burden": 0.025,
+            "taxes": {
+                "usn": 0.0,
+                "pension": 794248.67,
+                "medical": 184123.98,
+                "social": 104730.91,
+                "penalty": 0.0,
+                "other": 1912532.0
+            }
+        },
+        {
+            "year": "2019",
+            "income": 118861000.0,
+            "expense": 105355000.0,
+            "profitability": 0.1,
+            "tax_burden": 0.027,
+            "taxes": {
+                "usn": 0.0,
+                "pension": 679523.32,
+                "medical": 157425.5,
+                "social": 89097.47,
+                "penalty": 0.0,
+                "other": 1709130.0
+            }
+        },
+        {
+            "year": "2018",
+            "income": 74391000.0,
+            "expense": 70059000.0,
+            "profitability": 0.061,
+            "tax_burden": 0.03,
+            "taxes": {
+                "usn": 0.0,
+                "pension": 589676.42,
+                "medical": 136747.71,
+                "social": 77730.07,
+                "penalty": 0.0,
+                "other": 791710.0
+            }
+        }
+    ],
+    "licenses": [
+        {
+            "activity": "Фармацевтическая деятельность",
+            "valid_until": null
+        }
+    ],
+    "branches": []
+}

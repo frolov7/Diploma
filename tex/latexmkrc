@@ -1,0 +1,8 @@
+$out_dir = 'build';
+
+$pdf_mode = 5;      # xelatex
+$xelatex = 'xelatex %O %S';
+
+END {
+    system("copy build\\report.pdf report.pdf >nul 2>&1");
+}

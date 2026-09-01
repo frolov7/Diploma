@@ -1,0 +1,45 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{РЕФЕРАТ}{5}{Doc-Start}%
+\contentsline {section}{ОПРЕДЕЛЕНИЯ, ОБОЗНАЧЕНИЯ И СОКРАЩЕНИЯ}{8}{Doc-Start}%
+\contentsline {section}{ВВЕДЕНИЕ}{9}{Item.12}%
+\contentsline {section}{\numberline {1}Аналитический раздел}{11}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Анализ предметной области}{11}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Градиентный бустинг деревьев решений}{14}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Логистическая регрессия}{17}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Линейный дискриминантный анализ}{20}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Метод опорных векторов}{22}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Классификация существующих решений}{26}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Скоринговая система FICO}{28}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Скоринговые решения Experian}{29}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Скоринговые системы на основе машинного обучения}{30}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Формулировка цели}{31}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}Формализация задачи. IDEF0-диаграмма}{32}{subsection.1.11}%
+\contentsline {section}{\numberline {2}Конструкторский раздел}{35}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Требования к разрабатываемому методу}{35}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Требования к программному комплексу}{36}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Основной алгоритм работы}{36}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Описание входных данных и признакового пространства}{38}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Предобработка данных}{40}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Параметры и настройка модели}{41}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Формирование результата и принятие решения}{42}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Структуры данных}{43}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Взаимодействие компонентов системы}{44}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Технологический раздел}{47}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Обоснование выбора технологий}{47}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Основные программные модули системы}{48}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Формат входных и выходных данных}{51}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Тестирование программного обеспечения}{51}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Исследовательский раздел}{61}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Анализ дисбаланса классов}{62}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Оптимизация гиперпараметров модели}{63}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Сравнение моделей по основным метрикам}{66}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Сравнение моделей по дополнительным метрикам}{67}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Анализ ROC-кривых}{69}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Анализ Precision-Recall кривых}{70}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Анализ значимости признаков}{71}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Ограничения проведенного исследования}{72}{subsection.4.8}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{75}{subsection.4.8}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{77}{subsection.4.8}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А}{80}{subsection.4.8}%
+\contentsline {section}{ПРИЛОЖЕНИЕ Б}{83}{lstnumber.5.16}%
+\contentsline {section}{ПРИЛОЖЕНИЕ В}{86}{lstnumber.10.19}%

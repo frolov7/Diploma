@@ -1,0 +1,215 @@
+\usepackage{mathtext}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{mathtools}
+
+\usepackage[russian]{babel}
+\usepackage{cmap}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\usepackage{graphicx}
+\usepackage{csvsimple}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{pythonhighlight}
+\usepackage{placeins}
+\usepackage{pdfpages}
+\usepackage{xurl}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage[top=20mm, right=10mm, left=30mm, bottom=20mm]{geometry}
+
+% Поля и абзацы для TestVkr
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+% Дополнительно фиксируем красную строку после загрузки всех пакетов
+\AtBeginDocument{%
+    \setlength{\parindent}{1.25cm}%
+    \setlength{\parskip}{0pt}%
+}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\frenchspacing
+
+\usepackage{indentfirst}
+\usepackage{ragged2e}
+\justifying
+
+% Заголовки
+\usepackage{titlesec}
+
+\titleformat{name=\section}[block]
+{\normalfont\Large\bfseries}
+{\thesection}
+{1em}
+{}
+
+\titleformat{name=\section,numberless}[block]
+{\normalfont\Large\bfseries\centering}
+{}
+{0pt}
+{}
+
+\titleformat{name=\subsection}[block]
+{\normalfont\normalsize\bfseries}
+{\thesubsection}
+{1em}
+{}
+
+\titleformat{name=\subsection,numberless}[block]
+{\normalfont\normalsize\bfseries}
+{}
+{0pt}
+{}
+
+\titleformat{name=\subsubsection}[block]
+{\normalfont\normalsize\bfseries}
+{\thesubsubsection}
+{1em}
+{}
+
+% Важно для TestVkr: номерные заголовки начинаются с красной строки
+\titlespacing*{\section}{\parindent}{*4}{*4}
+\titlespacing*{\subsection}{\parindent}{*4}{*4}
+\titlespacing*{\subsubsection}{\parindent}{*4}{*4}
+
+\newcommand{\anonsection}[1]{%
+    \section*{#1}%
+    \addcontentsline{toc}{section}{#1}%
+}
+
+% Таблицы
+\newenvironment{signstabular}[2][1]
+{
+    \renewcommand{\arraystretch}{#1}
+    \begin{tabular}{#2}
+        }
+        {
+    \end{tabular}
+}
+
+\newcommand{\specialcell}[2][c]{%
+    \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}%
+}
+
+% Графика
+\graphicspath{{./}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps,.svg}
+
+% Подписи рисунков и таблиц
+\usepackage[figurename=Рисунок]{caption}
+\DeclareCaptionLabelSeparator{defffis}{~--~}
+
+\captionsetup{
+    justification=raggedright,
+    singlelinecheck=false,
+    labelsep=defffis
+}
+
+\captionsetup[table]{
+    justification=raggedleft,
+    singlelinecheck=false,
+    labelsep=defffis
+}
+
+% Список литературы
+\usepackage[square,numbers,sort&compress]{natbib}
+\renewcommand{\bibnumfmt}[1]{#1.\hfill}
+
+\addto\captionsrussian{%
+    \renewcommand{\refname}{Список использованных источников}%
+}
+
+\makeatletter
+\renewenvironment{thebibliography}[1]
+{
+    \section*{\refname}%
+    \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
+    \list{\@biblabel{\@arabic\c@enumiv}}%
+    {
+        \settowidth\labelwidth{\@biblabel{#1}}%
+        \leftmargin\labelwidth
+        \advance\leftmargin\labelsep
+        \@openbib@code
+        \usecounter{enumiv}%
+        \let\p@enumiv\@empty
+        \renewcommand\theenumiv{\@arabic\c@enumiv}%
+    }%
+    \sloppy
+    \clubpenalty4000
+    \@clubpenalty \clubpenalty
+    \widowpenalty4000%
+    \sfcode`\.\@m
+}
+{
+    \def\@noitemerr{%
+        \@latex@warning{Empty `thebibliography' environment}%
+    }%
+    \endlist
+}
+\makeatother
+
+% Дополнительные пакеты
+\usepackage[figure,table]{totalcount}
+\usepackage{ulem}
+\usepackage{hhline}
+\usepackage{rotating}
+\usepackage{lastpage}
+
+% Гиперссылки и перенос длинных URL
+\usepackage[
+    unicode=true,
+    hidelinks,
+    breaklinks=true
+]{hyperref}
+
+\Urlmuskip=0mu plus 1mu
+
+% Списки
+\renewcommand{\labelitemi}{---}
+% Настройка нумерованных списков для TestVkr
+\setlist[enumerate]{
+    label=\arabic*.,
+    leftmargin=0pt,
+    itemindent=1.25cm,
+    labelwidth=0.6cm,
+    labelsep=0.2cm,
+    align=left,
+    itemsep=0.6em,
+    topsep=0.6em,
+    parsep=0pt
+}
+% Нумерация формул и рисунков по разделам
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+% Листинги программного кода
+\renewcommand{\lstlistingname}{Листинг}
+
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\bfseries,
+    commentstyle=\itshape,
+    stringstyle=\ttfamily,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=8pt,
+    frame=single,
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=4,
+    showstringspaces=false,
+    captionpos=b,
+    columns=fullflexible,
+    keepspaces=true
+}

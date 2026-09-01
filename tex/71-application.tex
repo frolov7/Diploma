@@ -1,0 +1,36 @@
+\section*{ПРИЛОЖЕНИЕ Б}
+\addcontentsline{toc}{section}{ПРИЛОЖЕНИЕ Б}
+
+\section*{Модуль обучения, тестирования и предсказания модели}
+
+\FloatBarrier
+\begin{lstinputlisting}[caption=Параметры обучения модели, linerange={1-14},
+		basicstyle=\footnotesize\ttfamily, label={lst::model_train_settings}, frame=single, breaklines=true]{inc/src/model_train_settings.json}
+\end{lstinputlisting}
+\FloatBarrier
+
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция подготовки обучающей и тестовой выборок, linerange={1-16},
+		basicstyle=\footnotesize\ttfamily, label={lst::prepare_train_test_data}, frame=single, breaklines=true]{inc/src/model_training.py}
+\end{lstinputlisting}
+\FloatBarrier
+
+\newpage
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция обучения модели LightGBM, linerange={19-55},
+		basicstyle=\footnotesize\ttfamily, label={lst::train_lightgbm_model}, frame=single, breaklines=true]{inc/src/model_training.py}
+\end{lstinputlisting}
+\FloatBarrier
+
+\newpage
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция оценки качества модели, linerange={1-17},
+		basicstyle=\footnotesize\ttfamily, label={lst::evaluate_model}, frame=single, breaklines=true]{inc/src/model_testing.py}
+\end{lstinputlisting}
+\FloatBarrier
+
+\FloatBarrier
+\begin{lstinputlisting}[language=Python, caption=Функция формирования результата скоринга, linerange={20-38},
+		basicstyle=\footnotesize\ttfamily, label={lst::predict_client_risk}, frame=single, breaklines=true]{inc/src/model_testing.py}
+\end{lstinputlisting}
+\FloatBarrier

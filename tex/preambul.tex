@@ -1,0 +1,274 @@
+\usepackage{mathtext}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{mathtools}
+
+\usepackage[russian]{babel}
+\usepackage{cmap}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\usepackage{graphicx}
+\usepackage{csvsimple}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{pythonhighlight}
+\usepackage{placeins}
+\usepackage{pdfpages}
+\usepackage{xurl}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage[top=20mm, right=10mm, left=29mm, bottom=20mm]{geometry}
+
+% Поля и абзацы для TestVkr
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+% Дополнительно фиксируем красную строку после загрузки всех пакетов
+\AtBeginDocument{%
+    \setlength{\parindent}{1.25cm}%
+    \setlength{\parskip}{0pt}%
+}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\frenchspacing
+
+\usepackage{indentfirst}
+\usepackage{ragged2e}
+\justifying
+
+% Заголовки
+\usepackage{titlesec}
+
+\titleformat{name=\section}[block]
+{\normalfont\Large\bfseries}
+{\thesection}
+{1em}
+{}
+
+\titleformat{name=\section,numberless}[block]
+{\normalfont\Large\bfseries\centering}
+{}
+{0pt}
+{}
+
+\titleformat{name=\subsection}[block]
+{\normalfont\normalsize\bfseries}
+{\thesubsection}
+{1em}
+{}
+
+\titleformat{name=\subsection,numberless}[block]
+{\normalfont\normalsize\bfseries}
+{}
+{0pt}
+{}
+
+\titleformat{name=\subsubsection}[block]
+{\normalfont\normalsize\bfseries}
+{\thesubsubsection}
+{1em}
+{}
+
+% Важно для TestVkr: номерные заголовки начинаются с красной строки
+\titlespacing{\section}{\parindent}{*4}{*4}
+\titlespacing{\subsection}{\parindent}{*4}{*4}
+\titlespacing{\subsubsection}{\parindent}{*4}{*4}
+
+\newcommand{\anonsection}[1]{%
+    \section*{#1}%
+    \addcontentsline{toc}{section}{#1}%
+}
+
+% Таблицы
+\newenvironment{signstabular}[2][1]
+{
+    \renewcommand{\arraystretch}{#1}
+    \begin{tabular}{#2}
+        }
+        {
+    \end{tabular}
+}
+
+\newcommand{\specialcell}[2][c]{%
+    \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}%
+}
+
+% Графика
+\graphicspath{{./}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps,.svg}
+
+% Подписи рисунков и таблиц
+\usepackage[figurename=Рисунок]{caption}
+\DeclareCaptionLabelSeparator{defffis}{~--~}
+
+\captionsetup{
+    justification=centering,
+    singlelinecheck=false,
+    labelsep=defffis
+}
+
+\captionsetup[table]{
+    justification=raggedright,
+    singlelinecheck=false,
+    labelsep=defffis,
+    skip=0pt,
+    margin=1.25cm        % отступ слева и справа (или только слева)
+}
+
+% Список литературы
+\usepackage[square,numbers,sort&compress]{natbib}
+\renewcommand{\bibnumfmt}[1]{#1.\hfill}
+
+\addto\captionsrussian{%
+    \renewcommand{\refname}{Список использованных источников}%
+}
+
+\makeatletter
+\renewenvironment{thebibliography}[1]
+{
+    \section*{\refname}%
+    \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
+    \list{\@biblabel{\@arabic\c@enumiv}}%
+    {
+        \settowidth\labelwidth{\@biblabel{#1}}%
+        \leftmargin=1.25cm
+        \labelsep=0.5cm
+        \@openbib@code
+        \usecounter{enumiv}%
+        \let\p@enumiv\@empty
+        \renewcommand\theenumiv{\@arabic\c@enumiv}%
+    }%
+    \sloppy
+    \clubpenalty4000
+    \@clubpenalty \clubpenalty
+    \widowpenalty4000%
+    \sfcode`\.\@m
+}
+{
+    \def\@noitemerr{%
+        \@latex@warning{Empty `thebibliography' environment}%
+    }%
+    \endlist
+}
+\makeatother
+
+% Дополнительные пакеты
+\usepackage[figure,table]{totalcount}
+\usepackage{ulem}
+\usepackage{hhline}
+\usepackage{rotating}
+\usepackage{lastpage}
+
+% Гиперссылки и перенос длинных URL
+\usepackage[
+    unicode=true,
+    hidelinks,
+    breaklinks=true
+]{hyperref}
+
+\Urlmuskip=0mu plus 1mu
+
+% Списки
+\renewcommand{\labelitemi}{---}
+
+% Настройка нумерованных списков для TestVkr
+\setlist[enumerate]{
+    label=\arabic*.,
+    leftmargin=0pt,
+    itemindent=1.25cm,
+    labelwidth=0.6cm,
+    labelsep=0.2cm,
+    align=left,
+    itemsep=0.6em,
+    topsep=0.6em,
+    parsep=0pt
+}
+
+% Нумерация формул и рисунков по разделам
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+% Листинги программного кода
+\renewcommand{\lstlistingname}{Листинг}
+
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\bfseries,
+    commentstyle=\itshape,
+    stringstyle=\ttfamily,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=8pt,
+    frame=single,
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=4,
+    showstringspaces=false,
+    captionpos=b,
+    columns=fullflexible,
+    keepspaces=true
+}
+
+% ============================================
+% НАСТРОЙКА СОДЕРЖАНИЯ
+% ============================================
+
+\usepackage{tocloft}
+
+% Название содержания через babel
+\addto\captionsrussian{%
+    \renewcommand{\contentsname}{СОДЕРЖАНИЕ}%
+}
+
+% Заголовок содержания по центру
+\renewcommand{\cfttoctitlefont}{\hfil\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfil}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{0.5cm}
+
+% Точки от названия раздела до номера страницы
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsubsubsecleader}{\cftdotfill{\cftdotsep}}
+
+% Отступы в содержании для TestVkr
+\cftsetindents{section}{0.50cm}{1.5em}
+\cftsetindents{subsection}{1.55cm}{2em}
+%\cftsetindents{subsubsection}{1.55cm}{2.5em}
+\cftsetindents{subsubsection}{2.00cm}{2.5em}   % больше, чем subsection, но меньше 2.80
+
+% ============================================
+% ФИКС ОТСТУПОВ ДЛЯ TESTVKR
+% ============================================
+
+\AtBeginDocument{%
+    \setlength{\parindent}{1.25cm}%
+    \setlength{\parskip}{0pt}%
+}
+
+% ============================================
+% ЖЕСТКАЯ ФИКСАЦИЯ АБЗАЦЕВ ДЛЯ TESTVKR
+% ============================================
+
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+\AtBeginDocument{%
+    \setlength{\parindent}{1.25cm}%
+    \setlength{\parskip}{0pt}%
+}
+
+% Не даем окружениям сбрасывать красную строку
+\makeatletter
+\let\@afterindentfalse\@afterindenttrue
+\@afterindenttrue
+\makeatother
